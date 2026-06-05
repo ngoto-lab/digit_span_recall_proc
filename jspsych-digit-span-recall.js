@@ -114,9 +114,9 @@ for (var i = 0; i < matrix.length; i++) {
   }
 
 
-  display_element.innerHTML += '<div class="jspsych-btn-numpad" style="display: inline-block; margin:'+0+' '+-10+'" id="jspsych-html-button-response-button-clear" onclick="clearSpace(this)">荳譁�ｭ玲ｶ医☆</div>';
+  display_element.innerHTML += '<div class="jspsych-btn-numpad" style="display: inline-block; margin:'+0+' '+-10+'" id="jspsych-html-button-response-button-clear" onclick="clearSpace(this)">一文字消す</div>';
 
-  display_element.innerHTML += '<div class="jspsych-btn-numpad" style="display: inline-block; margin:'+20+' '+40+'" id="jspsych-html-button-response-button">谺｡縺ｸ</div>';
+  display_element.innerHTML += '<div class="jspsych-btn-numpad" style="display: inline-block; margin:'+20+' '+40+'" id="jspsych-html-button-response-button">次へ</div>';
 
 
 var start_time = Date.now();
