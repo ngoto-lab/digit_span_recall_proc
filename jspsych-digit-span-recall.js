@@ -82,7 +82,7 @@ recordClick = function(data){
 
 clearSpace = function(data){
   recalledGrid = recalledGrid.slice(0, (recalledGrid.length-1))
-  console.log(recalledGrid)
+  //console.log(recalledGrid)
   var div = document.getElementById('recall_space');
   display = display.slice(0, (display.length-2))
   div.innerHTML = display
